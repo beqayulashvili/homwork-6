@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); 
+/*kontainer*/
+.container{
+    width:min(100%, 1440px);
+    margin: auto;
+}
+/*header*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 53px 98px;
+    background-color: #284069;
+}
+.header_ul{
+    display: flex;
+    column-gap: 50px;
+}
+.activ{
+    width: 62px;
+    height: 28px;
+    font-family: "Ubuntu", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    color: #F56013;
+}
+.inactiv{
+    width: 93px;
+    height: 28px;
+    font-family: "Ubuntu", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    color: #DDEAF8;
+}
+.fa-solid{
+    width: 33.33px;
+    height: 36.36px;  
+    top: 3.33px;
+    left: 3.33px;
+    gap: 0;
+    opacity: 0px;
+}
+/*section*/
+.section1{
+    margin: auto;
+    width:min(100%, 1440px);
+    background-color: #DDEAF8;
+    padding: 94px 98px;
+}
+.sectionh{
+    font-family: "Ubuntu", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #F56013;
+    padding-bottom: 54px;
+}
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+article{
+    
+    width: 400px;
+    gap: 0px;
+    height: 354px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+    padding: 30px;
+}
+image{
+    height: 220px;
+    width:calc(340 / 1440 * 100%)
+}
+button{
+   
+    top: 280px;
+    left: 225px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: #F56013;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+/*footer*/
+footer{
+    display: flex;
+    background-color: #284069;
+    flex-direction: column;
+    padding: 48px 643px;
+}
+.footerh{
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.footer_ul{
+    display: flex;
+    column-gap: 32px;
+    padding-top: 24px;
+    justify-content: center;
+}
+
+.fa-brands {
+    color: #F56013;
+    width: 18px;
+    height: 18px;
+    top: 0px;
+    left: -0px;
+    gap: 0px;
+    opacity: 0px;
+}
