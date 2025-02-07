@@ -44,10 +44,10 @@ header{
 }
 /*section*/
 .section1{
-    margin: auto;
-    width:min(100%, 1440px);
     background-color: #DDEAF8;
     padding: 94px 98px;
+    margin: auto;
+    
 }
 .sectionh{
     font-family: "Ubuntu", serif;
@@ -56,39 +56,31 @@ header{
     line-height: 40px;
     color: #F56013;
     padding-bottom: 54px;
+
 }
 .section2{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    column-gap: 22px;
+    row-gap: 30px;
 }
 article{
-    
-    width: 400px;
-    gap: 0px;
-    height: 354px;
-    border-radius: 10px 0px 0px 0px;
-    opacity: 0px;
     background-color: #FFFFFF;
-    border-radius: 10%;
+    width: 400px;
+    height: 354px;
+    left: 422px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
     padding: 30px;
 }
-image{
-    height: 220px;
-    width:calc(340 / 1440 * 100%)
-}
 button{
-   
     top: 280px;
     left: 225px;
     gap: 0px;
     border-radius: 10px;
     opacity: 0px;
     background-color: #F56013;
-    font-family: Ubuntu;
-    font-size: 24px;
-    font-weight: 400;
     border: none;
     font-family: Ubuntu;
     font-size: 24px;
